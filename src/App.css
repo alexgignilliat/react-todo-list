@@ -1,15 +1,78 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  pad: 0;
-}
-
 body {
+  background-color: rgb(81, 185, 255);
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.4;
+
 }
 
-a {
-  color: #333;
-  text-decoration: none;
+.header {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.247);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+.todo {
+  background-color: rgb(235, 235, 235);
+  border: 1px solid rgba(0, 0, 0, 0.527);
+  margin: 10px auto;;
+  height: 50px;
+  width: 30%;
+  box-shadow: 3px 3px rgb(0, 0, 0);
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+
+}
+
+button {
+  float: right;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+
+}
+
+.formDiv {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+p {
+  text-align: center;
+  margin-bottom: -1px;
+  
+}
+
+input {
+  margin: 1% auto;
+  height: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px rgb(0, 0, 0) solid;
+}
+
+#completeBtn {
+  background-color: green;
+}
+
+#deleteBtn{
+  background-color: red;
+}
+
+.btns{
+  float: right;
+  margin-bottom: 10px;
+  margin: 5px;
+}
+
+.btns:hover{
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.185);
 }
